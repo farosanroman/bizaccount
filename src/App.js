@@ -4,6 +4,13 @@ import './App.css';
 
 import Login from '../src/components/login'
 import Dashboard from '../src/components/dashboard'
+import {
+  RecoilRoot,
+  atom,
+  selector,
+  useRecoilState,
+  useRecoilValue,
+} from 'recoil';
 function App() {
   const [pag, setPag] = useState(0);
   const onLoginClick = () => {  
@@ -11,10 +18,13 @@ function App() {
       setPag(1)
   }  
   return (
-    <div className="App">
+    <RecoilRoot>
+ <div className="App">
       {(pag==0)&&<Login loginclick={onLoginClick}/>} 
       {(pag==1)&&<Dashboard/>} 
-    </div>
+    </div> 
+    </RecoilRoot>
+    
   );
 }
 

@@ -21,6 +21,15 @@ import firebase from 'firebase'
 import Snackbar from '@material-ui/core/Snackbar';
 import SnackbarContent from '@material-ui/core/SnackbarContent';
 //import SignInSide from './signinside'
+import {CUENTAS} from '../data/cuentas';
+import {
+  RecoilRoot,
+  atom,
+  selector,
+  useRecoilState,
+  useRecoilValue,
+} from 'recoil';
+import { plancuentas } from '../store'
 function Copyright() {
   return (
     <Typography variant="body2" color="textSecondary" align="center">
@@ -102,6 +111,7 @@ export default function Login(prop) {
   const [openSnackBar,setOpenSnackBar]= useState(true);
   const [mensajeSnackBar,setMensajeSnackBar]= useState("");
   const [snackbarcolor, setSnackbarcolor]=useState('#1DA1F2')
+  const [cuentas, setCuentas] = useRecoilState(plancuentas);
   function Copyright() {
     return (
       <Typography variant="body2" color="textSecondary" align="center">
@@ -136,6 +146,10 @@ function SignIn(user) {
    //setMensajeSnackBar(user.displayName)
    
  }
+ useEffect(() => {  
+
+   setCuentas(CUENTAS)
+ },[])
 useEffect(() => {  
   if (loginauth.name!=""){
     ///

@@ -8,6 +8,15 @@ import TableRow from '@material-ui/core/TableRow';
 import Paper from '@material-ui/core/Paper';
 import Title from './title';
 import {CUENTAS} from '../data/cuentas';
+
+import {
+  RecoilRoot,
+  atom,
+  selector,
+  useRecoilState,
+  useRecoilValue,
+} from 'recoil';
+import { plancuentas } from '../store'
 //alert(JSON.stringify(CUENTAS))
 const useStyles = makeStyles(theme => ({
   root: {
@@ -26,7 +35,10 @@ const useStyles = makeStyles(theme => ({
 
 export  function Cuentas() {
   const classes = useStyles();
-
+  const pcuentas = useRecoilValue(plancuentas);
+ // const cuentas = useRecoilValue(filterCuentas);
+  //console.log(cuentas)
+ // console.log(pcuentas)
   return (
     <div className={classes.root}>
         <Title>Plan de Cuentas (Institución Financiera)</Title>
@@ -42,7 +54,7 @@ export  function Cuentas() {
             </TableRow>
           </TableHead>
           <TableBody>
-            {CUENTAS.map(row => (
+            {pcuentas.map(row => (
               <TableRow key={row.CUENTA}>
                 <TableCell component="th" scope="row">{row.CUENTA} </TableCell>
                 <TableCell align="left">{row.DESCRIP} </TableCell>
