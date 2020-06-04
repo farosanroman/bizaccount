@@ -1,0 +1,929 @@
+{
+    "AUXILIARES": [
+        {
+            "TipoAuxiliar": "BD",
+            "Auxiliar": "1",
+            "Descripcion": "Credicorp- ADM 4010183921 con ITBMS"
+        },
+        {
+            "TipoAuxiliar": "BD",
+            "Auxiliar": "2",
+            "Descripcion": "Credicorp - PROPIA 4010214279 con ITBMS"
+        },
+        {
+            "TipoAuxiliar": "BD",
+            "Auxiliar": "3",
+            "Descripcion": "Citibank- PROPIA 36265238"
+        },
+        {
+            "TipoAuxiliar": "BD",
+            "Auxiliar": "4",
+            "Descripcion": "NETEO CITIBANK"
+        },
+        {
+            "TipoAuxiliar": "BD",
+            "Auxiliar": "5",
+            "Descripcion": "NETEO CREDICORP"
+        },
+        {
+            "TipoAuxiliar": "BD",
+            "Auxiliar": "6",
+            "Descripcion": "Citibank    MONEY M"
+        },
+        {
+            "TipoAuxiliar": "BD",
+            "Auxiliar": "8",
+            "Descripcion": "BANCO PANAMA 002200000704"
+        },
+        {
+            "TipoAuxiliar": "BD",
+            "Auxiliar": "9",
+            "Descripcion": "CREDICORP AHORRO sin ITBMS 4020772252 "
+        },
+        {
+            "TipoAuxiliar": "BD",
+            "Auxiliar": "11",
+            "Descripcion": "CITIBANK GLOBAL PR"
+        },
+        {
+            "TipoAuxiliar": "BD",
+            "Auxiliar": "12",
+            "Descripcion": "CITIBANK GLOBAL TR"
+        },
+        {
+            "TipoAuxiliar": "BD",
+            "Auxiliar": "13",
+            "Descripcion": "CITI GLOBAL PR EUR"
+        },
+        {
+            "TipoAuxiliar": "BD",
+            "Auxiliar": "14",
+            "Descripcion": "CITI GLOBAL TR EUR"
+        },
+        {
+            "TipoAuxiliar": "BD",
+            "Auxiliar": "18",
+            "Descripcion": "BANCO PANAMA CON ITBMS 002200000704"
+        },
+        {
+            "TipoAuxiliar": "BD",
+            "Auxiliar": "19",
+            "Descripcion": "Banco Panamá Depósito a Plazo 002300000451"
+        },
+        {
+            "TipoAuxiliar": "BD",
+            "Auxiliar": "20",
+            "Descripcion": "Credicorp  - TERC. 4010214286 con ITBMS"
+        },
+        {
+            "TipoAuxiliar": "BD",
+            "Auxiliar": "21",
+            "Descripcion": "Citibank-  TERC. 36265211"
+        },
+        {
+            "TipoAuxiliar": "BD",
+            "Auxiliar": "22",
+            "Descripcion": "MONEY MARKET CITI PROPIA"
+        },
+        {
+            "TipoAuxiliar": "BD",
+            "Auxiliar": "23",
+            "Descripcion": "Banesco Depósito a Plazo 401000082621"
+        },
+        {
+            "TipoAuxiliar": "BD",
+            "Auxiliar": "24",
+            "Descripcion": "MERCANTIL BANK ACH CON ITBMS"
+        },
+        {
+            "TipoAuxiliar": "BD",
+            "Auxiliar": "28",
+            "Descripcion": "CITI NEW YORK TERCERO"
+        },
+        {
+            "TipoAuxiliar": "BD",
+            "Auxiliar": "29",
+            "Descripcion": "CAJA VENEZOLANA DE VALORES"
+        },
+        {
+            "TipoAuxiliar": "BD",
+            "Auxiliar": "30",
+            "Descripcion": "100% BANCO 01560030630400192456"
+        },
+        {
+            "TipoAuxiliar": "BD",
+            "Auxiliar": "31",
+            "Descripcion": "BANCARIBE 01140159791590143630"
+        },
+        {
+            "TipoAuxiliar": "BD",
+            "Auxiliar": "32",
+            "Descripcion": "100% BANCO 610000347021"
+        },
+        {
+            "TipoAuxiliar": "BD",
+            "Auxiliar": "33",
+            "Descripcion": "BANCO NACIONAL DE CREDITO"
+        },
+        {
+            "TipoAuxiliar": "BD",
+            "Auxiliar": "34",
+            "Descripcion": "SANTANDER TERCEROS EURO"
+        },
+        {
+            "TipoAuxiliar": "BD",
+            "Auxiliar": "35",
+            "Descripcion": "SANTANDER TERCEROS CAD"
+        },
+        {
+            "TipoAuxiliar": "BD",
+            "Auxiliar": "37",
+            "Descripcion": "MACQUARIE 037"
+        },
+        {
+            "TipoAuxiliar": "BD",
+            "Auxiliar": "38",
+            "Descripcion": "STANDAR BANK"
+        },
+        {
+            "TipoAuxiliar": "BD",
+            "Auxiliar": "50",
+            "Descripcion": "CONTROL TERCEROS"
+        },
+        {
+            "TipoAuxiliar": "BD",
+            "Auxiliar": "51",
+            "Descripcion": "CONTROL TERCEROS CAD"
+        },
+        {
+            "TipoAuxiliar": "BD",
+            "Auxiliar": "52",
+            "Descripcion": "CONTROL PROPIAS ARS"
+        },
+        {
+            "TipoAuxiliar": "BD",
+            "Auxiliar": "112",
+            "Descripcion": "MORGAN ST   PROPIA M2-F0376"
+        },
+        {
+            "TipoAuxiliar": "BD",
+            "Auxiliar": "113",
+            "Descripcion": "MORGAN ST M2-F0384"
+        },
+        {
+            "TipoAuxiliar": "BD",
+            "Auxiliar": "116",
+            "Descripcion": "SAFRA PROPIA 593566/001.000.840"
+        },
+        {
+            "TipoAuxiliar": "BD",
+            "Auxiliar": "117",
+            "Descripcion": "SAFRA TERCEROS"
+        },
+        {
+            "TipoAuxiliar": "BD",
+            "Auxiliar": "118",
+            "Descripcion": "VERDMONT PROPIA 172800043"
+        },
+        {
+            "TipoAuxiliar": "BD",
+            "Auxiliar": "119",
+            "Descripcion": "VERDMONT TERC 172800044"
+        },
+        {
+            "TipoAuxiliar": "BD",
+            "Auxiliar": "120",
+            "Descripcion": "EFG CAPITAL    PROPIO"
+        },
+        {
+            "TipoAuxiliar": "BD",
+            "Auxiliar": "121",
+            "Descripcion": "EFG CAPITAL ---TERCEROS"
+        },
+        {
+            "TipoAuxiliar": "BD",
+            "Auxiliar": "122",
+            "Descripcion": "CORREVAL,SA TERCEROS9004324753"
+        },
+        {
+            "TipoAuxiliar": "BD",
+            "Auxiliar": "123",
+            "Descripcion": "UBS PROPIA 230-75880"
+        },
+        {
+            "TipoAuxiliar": "BD",
+            "Auxiliar": "124",
+            "Descripcion": "BN VALORES"
+        },
+        {
+            "TipoAuxiliar": "BD",
+            "Auxiliar": "125",
+            "Descripcion": "Prival Securities, Inc. con ITBMS PS000554 "
+        },
+        {
+            "TipoAuxiliar": "BD",
+            "Auxiliar": "126",
+            "Descripcion": "SAFRA SUIZA PROPIA"
+        },
+        {
+            "TipoAuxiliar": "BD",
+            "Auxiliar": "127",
+            "Descripcion": "LAFISE PROPIO DDA CON ITBMS 116000545"
+        },
+        {
+            "TipoAuxiliar": "BD",
+            "Auxiliar": "128",
+            "Descripcion": "LAFISE TERCERO DDA CON ITBMS 116000485"
+        },
+        {
+            "TipoAuxiliar": "BD",
+            "Auxiliar": "129",
+            "Descripcion": "LAFISE PROPIO SAV CON ITBMS 216000347"
+        },
+        {
+            "TipoAuxiliar": "BD",
+            "Auxiliar": "130",
+            "Descripcion": "BANESCO AHORRO PROPIO CON ITBMS 201000800571"
+        },
+        {
+            "TipoAuxiliar": "BD",
+            "Auxiliar": "131",
+            "Descripcion": "LATINCLEAR TERCEROS"
+        },
+        {
+            "TipoAuxiliar": "BD",
+            "Auxiliar": "132",
+            "Descripcion": "LATINCLEAR EUR"
+        },
+        {
+            "TipoAuxiliar": "BD",
+            "Auxiliar": "133",
+            "Descripcion": "BANCO SANTANDER SUIZA TERCERO"
+        },
+        {
+            "TipoAuxiliar": "BD",
+            "Auxiliar": "134",
+            "Descripcion": "LAFISE DPF 616000136"
+        },
+        {
+            "TipoAuxiliar": "BD",
+            "Auxiliar": "135",
+            "Descripcion": "SCOTIA BANK COSTA RICA"
+        },
+        {
+            "TipoAuxiliar": "BD",
+            "Auxiliar": "136",
+            "Descripcion": "JP MORGAN JPM003"
+        },
+        {
+            "TipoAuxiliar": "BD",
+            "Auxiliar": "137",
+            "Descripcion": "ALL BANK - PROPIA -1110003753"
+        },
+        {
+            "TipoAuxiliar": "BD",
+            "Auxiliar": "138",
+            "Descripcion": "ALL BANK - TERCERO 1110003744"
+        },
+        {
+            "TipoAuxiliar": "BD",
+            "Auxiliar": "139",
+            "Descripcion": "SCOTIA BANK PANAMA PROPIA 850056975"
+        },
+        {
+            "TipoAuxiliar": "BD",
+            "Auxiliar": "140",
+            "Descripcion": "SCOTIA BANK PANAMA TERCEROS 850057055"
+        },
+        {
+            "TipoAuxiliar": "BD",
+            "Auxiliar": "141",
+            "Descripcion": "SANTANDER PROPIA"
+        },
+        {
+            "TipoAuxiliar": "BD",
+            "Auxiliar": "142",
+            "Descripcion": "MERCANTIL BANK PANAMA CON ITBMS"
+        },
+        {
+            "TipoAuxiliar": "BD",
+            "Auxiliar": "143",
+            "Descripcion": "BANCARIBE CURACAO BANK N.V."
+        },
+        {
+            "TipoAuxiliar": "BD",
+            "Auxiliar": "144",
+            "Descripcion": "SANTANDER PROPIAS EURO"
+        },
+        {
+            "TipoAuxiliar": "BD",
+            "Auxiliar": "145",
+            "Descripcion": "SANTANDER PROPIAS CHF"
+        },
+        {
+            "TipoAuxiliar": "BD",
+            "Auxiliar": "146",
+            "Descripcion": "JEFFERIES LLC PROPIA"
+        },
+        {
+            "TipoAuxiliar": "BD",
+            "Auxiliar": "147",
+            "Descripcion": "SANTANDER PROPIA MXN"
+        },
+        {
+            "TipoAuxiliar": "BD",
+            "Auxiliar": "148",
+            "Descripcion": "TPC VALORES S.A."
+        },
+        {
+            "TipoAuxiliar": "BD",
+            "Auxiliar": "150",
+            "Descripcion": "SAFRA BANK TERCEROS GBP 593871"
+        },
+        {
+            "TipoAuxiliar": "BD",
+            "Auxiliar": "151",
+            "Descripcion": "SANTANDER PROPIA II USD"
+        },
+        {
+            "TipoAuxiliar": "BD",
+            "Auxiliar": "152",
+            "Descripcion": "SANTANDER PROPIA II EUR"
+        },
+        {
+            "TipoAuxiliar": "BD",
+            "Auxiliar": "153",
+            "Descripcion": "UBS CHF"
+        },
+        {
+            "TipoAuxiliar": "BD",
+            "Auxiliar": "154",
+            "Descripcion": "LATINCLEAR TERCEROS II"
+        },
+        {
+            "TipoAuxiliar": "BD",
+            "Auxiliar": "155",
+            "Descripcion": "BCT VALORES"
+        },
+        {
+            "TipoAuxiliar": "BD",
+            "Auxiliar": "160",
+            "Descripcion": "VERDMONT TERCEROS CAD 172800044"
+        },
+        {
+            "TipoAuxiliar": "BD",
+            "Auxiliar": "161",
+            "Descripcion": "VERDMONT PROPIA CAD 172800043"
+        },
+        {
+            "TipoAuxiliar": "BD",
+            "Auxiliar": "162",
+            "Descripcion": "MORGAN TERCEROS CAD M2-F0384"
+        },
+        {
+            "TipoAuxiliar": "BD",
+            "Auxiliar": "168",
+            "Descripcion": "LATINCLEAR ARS PESO ARGENTINO"
+        },
+        {
+            "TipoAuxiliar": "BD",
+            "Auxiliar": "171",
+            "Descripcion": "MORGAN TERCEROS EUR M2-F0384"
+        },
+        {
+            "TipoAuxiliar": "BD",
+            "Auxiliar": "174",
+            "Descripcion": "BANCO PANAMA TERC 2100000491 CON ITBMS"
+        },
+        {
+            "TipoAuxiliar": "BD",
+            "Auxiliar": "175",
+            "Descripcion": "SANTANDER SUIZA II 65489"
+        },
+        {
+            "TipoAuxiliar": "BD",
+            "Auxiliar": "178",
+            "Descripcion": "BANITSMO con ITBMS"
+        },
+        {
+            "TipoAuxiliar": "BD",
+            "Auxiliar": "190",
+            "Descripcion": "SANTANDER CHF"
+        },
+        {
+            "TipoAuxiliar": "BD",
+            "Auxiliar": "191",
+            "Descripcion": "SANTANDER EUR"
+        },
+        {
+            "TipoAuxiliar": "BD",
+            "Auxiliar": "192",
+            "Descripcion": "SANTANDER SUIZA II CAD"
+        },
+        {
+            "TipoAuxiliar": "BD",
+            "Auxiliar": "193",
+            "Descripcion": "ELITE INTERNATIONAL BANK"
+        },
+        {
+            "TipoAuxiliar": "BD",
+            "Auxiliar": "194",
+            "Descripcion": "SANTANDER JPY"
+        },
+        {
+            "TipoAuxiliar": "BD",
+            "Auxiliar": "200",
+            "Descripcion": "otras partidas por APlicar"
+        },
+        {
+            "TipoAuxiliar": "BD",
+            "Auxiliar": "201",
+            "Descripcion": "CITI  MONEY INTERESES"
+        },
+        {
+            "TipoAuxiliar": "BD",
+            "Auxiliar": "202",
+            "Descripcion": "BANCO MERCANTIL- AV CREDIT"
+        },
+        {
+            "TipoAuxiliar": "BD",
+            "Auxiliar": "610",
+            "Descripcion": "INTERACTIVE BROKERS"
+        },
+        {
+            "TipoAuxiliar": "BD",
+            "Auxiliar": "611",
+            "Descripcion": "INTERACTIVE BROKERS U 1402530"
+        },
+        {
+            "TipoAuxiliar": "BD",
+            "Auxiliar": "612",
+            "Descripcion": "INTERACTIVE BROKERS U 14204"
+        },
+        {
+            "TipoAuxiliar": "BD",
+            "Auxiliar": "613",
+            "Descripcion": "INTERACTIVE BROKERS CAD"
+        },
+        {
+            "TipoAuxiliar": "BD",
+            "Auxiliar": "614",
+            "Descripcion": "INTERACTIVE BROKERS II"
+        },
+        {
+            "TipoAuxiliar": "BD",
+            "Auxiliar": "615",
+            "Descripcion": "INTERACTIVE BROKERS U1692257"
+        },
+        {
+            "TipoAuxiliar": "BD",
+            "Auxiliar": "616",
+            "Descripcion": "INTERACTIVE BROKERS EUR"
+        },
+        {
+            "TipoAuxiliar": "BD",
+            "Auxiliar": "900",
+            "Descripcion": "I BUSINESS BANKING 0941"
+        },
+        {
+            "TipoAuxiliar": "BD",
+            "Auxiliar": "901",
+            "Descripcion": "I BUSINESS BANKING 2094"
+        },
+        {
+            "TipoAuxiliar": "BD",
+            "Auxiliar": "902",
+            "Descripcion": "AV FUND II"
+        },
+        {
+            "TipoAuxiliar": "BD",
+            "Auxiliar": "0000GTE",
+            "Descripcion": "GRAN TIERRA ENERGY INC.                                     "
+        },
+        {
+            "TipoAuxiliar": "BD",
+            "Auxiliar": "0000PRE",
+            "Descripcion": "PACIFIC RUBIALES ENERGY CORP. (PRE)                         "
+        },
+        {
+            "TipoAuxiliar": "BD",
+            "Auxiliar": "1001",
+            "Descripcion": "Credicorp-Adm sin ITBMS"
+        },
+        {
+            "TipoAuxiliar": "BD",
+            "Auxiliar": "1002",
+            "Descripcion": "Credicorp Propia sin ITBMS 214279"
+        },
+        {
+            "TipoAuxiliar": "BD",
+            "Auxiliar": "1008",
+            "Descripcion": "BANCO PANAMA sin ITBMS 002200000704"
+        },
+        {
+            "TipoAuxiliar": "BD",
+            "Auxiliar": "1009",
+            "Descripcion": "Credicorp Ahorro con ITBMS-772252"
+        },
+        {
+            "TipoAuxiliar": "BD",
+            "Auxiliar": "1018",
+            "Descripcion": "BANCO PANAMA SIN ITBMS 002200000704"
+        },
+        {
+            "TipoAuxiliar": "BD",
+            "Auxiliar": "1020",
+            "Descripcion": "Credicorp-TERC 214286 sin ITBMS"
+        },
+        {
+            "TipoAuxiliar": "BD",
+            "Auxiliar": "1024",
+            "Descripcion": "Banco Mercantil Comision sin ITBMS"
+        },
+        {
+            "TipoAuxiliar": "BD",
+            "Auxiliar": "1125",
+            "Descripcion": "Prival Securities Inc. sin ITBMS PS554"
+        },
+        {
+            "TipoAuxiliar": "BD",
+            "Auxiliar": "1127",
+            "Descripcion": "LAFISE PROPIO DDA SIN ITBMS "
+        },
+        {
+            "TipoAuxiliar": "BD",
+            "Auxiliar": "1128",
+            "Descripcion": "LAFISE TERCERO DDA SIN ITBMS 485"
+        },
+        {
+            "TipoAuxiliar": "BD",
+            "Auxiliar": "1129",
+            "Descripcion": "LAFISE PROPIO SAV SIN ITBMS 347"
+        },
+        {
+            "TipoAuxiliar": "BD",
+            "Auxiliar": "1130",
+            "Descripcion": "BANESCO AHORRO PROPIO SIN ITBMS 571"
+        },
+        {
+            "TipoAuxiliar": "BD",
+            "Auxiliar": "1139",
+            "Descripcion": "SCOTIA BANK PANAMA PROPIA SIN ITBMS 56975"
+        },
+        {
+            "TipoAuxiliar": "BD",
+            "Auxiliar": "1140",
+            "Descripcion": "SCOTIA BANK PANAMA TERCERO SIN ITBMS"
+        },
+        {
+            "TipoAuxiliar": "BD",
+            "Auxiliar": "1142",
+            "Descripcion": "MERCANTIL BANK PANAMA SIN ITBMS"
+        },
+        {
+            "TipoAuxiliar": "BD",
+            "Auxiliar": "1174",
+            "Descripcion": "BANCO PANAMA TERC 2100000491 sin ITBMS"
+        },
+        {
+            "TipoAuxiliar": "BD",
+            "Auxiliar": "00061GE",
+            "Descripcion": "SIN NOMBRE"
+        },
+        {
+            "TipoAuxiliar": "BD",
+            "Auxiliar": "000CITI",
+            "Descripcion": "CITIBANK"
+        },
+        {
+            "TipoAuxiliar": "BD",
+            "Auxiliar": "000CLAR",
+            "Descripcion": "CLARIDEN"
+        },
+        {
+            "TipoAuxiliar": "BD",
+            "Auxiliar": "000PAAS",
+            "Descripcion": "PAN AMERICAN SILVER CORPORATION   "
+        },
+        {
+            "TipoAuxiliar": "BD",
+            "Auxiliar": "00AVANT",
+            "Descripcion": "AVANTIA"
+        },
+        {
+            "TipoAuxiliar": "BD",
+            "Auxiliar": "00DAKAR",
+            "Descripcion": "DAKAR GLOBAL CORP."
+        },
+        {
+            "TipoAuxiliar": "BD",
+            "Auxiliar": "0AVC003",
+            "Descripcion": "AV CREDIT"
+        },
+        {
+            "TipoAuxiliar": "BD",
+            "Auxiliar": "0AVF001",
+            "Descripcion": "AV FIXED INCOME OPORTUNITY"
+        },
+        {
+            "TipoAuxiliar": "BD",
+            "Auxiliar": "0AVF002",
+            "Descripcion": "AV FIXED INCOME"
+        },
+        {
+            "TipoAuxiliar": "BD",
+            "Auxiliar": "0AVFI01",
+            "Descripcion": "AV FIXED INCOME ALTERNATIVE FUND"
+        },
+        {
+            "TipoAuxiliar": "BD",
+            "Auxiliar": "0AVL001",
+            "Descripcion": "AV LATIN AMERICA ENERGY FUND"
+        },
+        {
+            "TipoAuxiliar": "BD",
+            "Auxiliar": "0AVS001",
+            "Descripcion": "AV SECURITIES "
+        },
+        {
+            "TipoAuxiliar": "BD",
+            "Auxiliar": "0AVV001",
+            "Descripcion": "AV VENEZUELAN FIXED INCOME OPPORTUNITY FUND INC"
+        },
+        {
+            "TipoAuxiliar": "BD",
+            "Auxiliar": "0BAN010",
+            "Descripcion": "BANCARIBE CURACAO BANK"
+        },
+        {
+            "TipoAuxiliar": "BD",
+            "Auxiliar": "0BAN011",
+            "Descripcion": "CITIBANK GLOBAL "
+        },
+        {
+            "TipoAuxiliar": "BD",
+            "Auxiliar": "0BAN020",
+            "Descripcion": "BANESCO"
+        },
+        {
+            "TipoAuxiliar": "BD",
+            "Auxiliar": "0BAN022",
+            "Descripcion": "BANCO LAFISE PANAMA"
+        },
+        {
+            "TipoAuxiliar": "BD",
+            "Auxiliar": "0BAN023",
+            "Descripcion": "BANCO PANAMA"
+        },
+        {
+            "TipoAuxiliar": "BD",
+            "Auxiliar": "0BAN027",
+            "Descripcion": "BANCO SANTANDER PROPIA"
+        },
+        {
+            "TipoAuxiliar": "BD",
+            "Auxiliar": "0BAN029",
+            "Descripcion": "BANCO SOFITASA BANCO UNIVERSAL"
+        },
+        {
+            "TipoAuxiliar": "BD",
+            "Auxiliar": "0BAN034",
+            "Descripcion": "BANISTMO"
+        },
+        {
+            "TipoAuxiliar": "BD",
+            "Auxiliar": "0BET001",
+            "Descripcion": "BETANCOURT QUARTO COSME EDUARDO"
+        },
+        {
+            "TipoAuxiliar": "BD",
+            "Auxiliar": "0BNH001",
+            "Descripcion": "BNH CASA DE BOLSA C.A."
+        },
+        {
+            "TipoAuxiliar": "BD",
+            "Auxiliar": "0CEN001",
+            "Descripcion": "Century Ecological"
+        },
+        {
+            "TipoAuxiliar": "BD",
+            "Auxiliar": "0CIT002",
+            "Descripcion": "CITIGROUP INC"
+        },
+        {
+            "TipoAuxiliar": "BD",
+            "Auxiliar": "0CON011",
+            "Descripcion": "Contrato COALI SAC"
+        },
+        {
+            "TipoAuxiliar": "BD",
+            "Auxiliar": "0CON015",
+            "Descripcion": "Contrato Corp. Universal sac Nuevo"
+        },
+        {
+            "TipoAuxiliar": "BD",
+            "Auxiliar": "0CON016",
+            "Descripcion": "Contrato EC GAS SAC"
+        },
+        {
+            "TipoAuxiliar": "BD",
+            "Auxiliar": "0CON019",
+            "Descripcion": "Contrato Fundente Copelas y Crisoles S.A.C."
+        },
+        {
+            "TipoAuxiliar": "BD",
+            "Auxiliar": "0CON026",
+            "Descripcion": "Contratos Iris Financial/Excekl Credit 4"
+        },
+        {
+            "TipoAuxiliar": "BD",
+            "Auxiliar": "0CON040",
+            "Descripcion": "Contrato Vivargo"
+        },
+        {
+            "TipoAuxiliar": "BD",
+            "Auxiliar": "0CON043",
+            "Descripcion": "Contrato White Lion"
+        },
+        {
+            "TipoAuxiliar": "BD",
+            "Auxiliar": "0CON044",
+            "Descripcion": "Contrato White Lion II"
+        },
+        {
+            "TipoAuxiliar": "BD",
+            "Auxiliar": "0CTA001",
+            "Descripcion": "Cuentas por Cobrar"
+        },
+        {
+            "TipoAuxiliar": "BD",
+            "Auxiliar": "0DELSUR",
+            "Descripcion": "DELSUR BANCO UNIVERSAL"
+        },
+        {
+            "TipoAuxiliar": "BD",
+            "Auxiliar": "0DEU001",
+            "Descripcion": "DEUTSCHE BANK SECURITIES INC"
+        },
+        {
+            "TipoAuxiliar": "BD",
+            "Auxiliar": "0FAB005",
+            "Descripcion": "FABESTA ESTRUCTURACION Y ASESORIA FINANCIERA"
+        },
+        {
+            "TipoAuxiliar": "BD",
+            "Auxiliar": "0FED001",
+            "Descripcion": "MARCOS VINICIO FEDERICO MORENO"
+        },
+        {
+            "TipoAuxiliar": "BD",
+            "Auxiliar": "0FIN002",
+            "Descripcion": "FINACORP VALORES BOLSA C.A."
+        },
+        {
+            "TipoAuxiliar": "BD",
+            "Auxiliar": "0GGARCI",
+            "Descripcion": "GUILLERMO GARCIA"
+        },
+        {
+            "TipoAuxiliar": "BD",
+            "Auxiliar": "0GLI002",
+            "Descripcion": "GLIDE MASTER FUND SPC LTD"
+        },
+        {
+            "TipoAuxiliar": "BD",
+            "Auxiliar": "0HOL002",
+            "Descripcion": "holding activalores,s.a."
+        },
+        {
+            "TipoAuxiliar": "BD",
+            "Auxiliar": "0INT004",
+            "Descripcion": "INTELINVEST CASA DE VALORES"
+        },
+        {
+            "TipoAuxiliar": "BD",
+            "Auxiliar": "0INT008",
+            "Descripcion": "INTERSEC CASA DE BOLSAS, C.A."
+        },
+        {
+            "TipoAuxiliar": "BD",
+            "Auxiliar": "0INT009",
+            "Descripcion": "INTERGLOBAL INVESTMENTS INC."
+        },
+        {
+            "TipoAuxiliar": "BD",
+            "Auxiliar": "0INTERE",
+            "Descripcion": "INTERESES X COBRAR"
+        },
+        {
+            "TipoAuxiliar": "BD",
+            "Auxiliar": "0JCG001",
+            "Descripcion": "JC GLOBAL FINANCIAL SERVICES LTD"
+        },
+        {
+            "TipoAuxiliar": "BD",
+            "Auxiliar": "0JCGLOB",
+            "Descripcion": "JC GLOBAL FINANCIAL SERVICES"
+        },
+        {
+            "TipoAuxiliar": "BD",
+            "Auxiliar": "0JNJADR",
+            "Descripcion": "JNJUS JOHNSON Y JOHNSON"
+        },
+        {
+            "TipoAuxiliar": "BD",
+            "Auxiliar": "0LAN001",
+            "Descripcion": "LANCITY"
+        },
+        {
+            "TipoAuxiliar": "BD",
+            "Auxiliar": "0LINCON",
+            "Descripcion": "LINCON FINANCIAL"
+        },
+        {
+            "TipoAuxiliar": "BD",
+            "Auxiliar": "0MAR025",
+            "Descripcion": "MARCIANO COHEN YONATHAN"
+        },
+        {
+            "TipoAuxiliar": "BD",
+            "Auxiliar": "0MAR027",
+            "Descripcion": "MARTINEZ MUÑOZ ERNESTO ANTONIO"
+        },
+        {
+            "TipoAuxiliar": "BD",
+            "Auxiliar": "0MAX002",
+            "Descripcion": "MAXIMIZA CASA DE BOLSA C.A."
+        },
+        {
+            "TipoAuxiliar": "BD",
+            "Auxiliar": "0MAX003",
+            "Descripcion": "MAXISECURITIES LTD"
+        },
+        {
+            "TipoAuxiliar": "BD",
+            "Auxiliar": "0MCDNYS",
+            "Descripcion": "MCDONALD'S CORP. (MCD)                                      "
+        },
+        {
+            "TipoAuxiliar": "BD",
+            "Auxiliar": "0MER003",
+            "Descripcion": "MERCANTIL SEGUROS PANAMA,S.A."
+        },
+        {
+            "TipoAuxiliar": "BD",
+            "Auxiliar": "0MER004",
+            "Descripcion": "MERCANTIL BANK PANAMA"
+        },
+        {
+            "TipoAuxiliar": "BD",
+            "Auxiliar": "0MIC001",
+            "Descripcion": "Mocrofinanzas Uruguay"
+        },
+        {
+            "TipoAuxiliar": "BD",
+            "Auxiliar": "0MID001",
+            "Descripcion": "MIDAS INVESTMENT GROUP, C.A."
+        },
+        {
+            "TipoAuxiliar": "BD",
+            "Auxiliar": "0NAI001",
+            "Descripcion": "NAIDENOFF MONTERO NINOSKA COROMOTO"
+        },
+        {
+            "TipoAuxiliar": "BD",
+            "Auxiliar": "0NAT003",
+            "Descripcion": "NATIONAL FINANCIAL"
+        },
+        {
+            "TipoAuxiliar": "BD",
+            "Auxiliar": "0OIL_US",
+            "Descripcion": "IPATH GOLDMAN SACHS CRUDE                                   "
+        },
+        {
+            "TipoAuxiliar": "BD",
+            "Auxiliar": "0SCO002",
+            "Descripcion": "SCOTIA VALORES"
+        },
+        {
+            "TipoAuxiliar": "BD",
+            "Auxiliar": "0SCO003",
+            "Descripcion": "SCOTIA BANK COSTA RICA"
+        },
+        {
+            "TipoAuxiliar": "BD",
+            "Auxiliar": "0SCO004",
+            "Descripcion": "SCOTIA BANK COSTA RICA G925"
+        },
+        {
+            "TipoAuxiliar": "BD",
+            "Auxiliar": "0SDS_US",
+            "Descripcion": "PROSHARE ULTRASHORT SP500                                   "
+        },
+        {
+            "TipoAuxiliar": "BD",
+            "Auxiliar": "0TRA001",
+            "Descripcion": "TRADEXEC (TEX)                "
+        }
+    ]
+}
