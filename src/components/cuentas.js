@@ -6,6 +6,8 @@ import TableCell from '@material-ui/core/TableCell';
 import TableHead from '@material-ui/core/TableHead';
 import TableRow from '@material-ui/core/TableRow';
 import Paper from '@material-ui/core/Paper';
+import MenuItem from '@material-ui/core/MenuItem';
+import Select from '@material-ui/core/Select';
 import Title from './title';
 import {CUENTAS} from '../data/cuentas';
 
@@ -16,7 +18,7 @@ import {
   useRecoilState,
   useRecoilValue,
 } from 'recoil';
-import { plancuentas } from '../store'
+import { plancuentas,tipoauxi,auxi,filterCuentas } from '../store'
 //alert(JSON.stringify(CUENTAS))
 const useStyles = makeStyles(theme => ({
   root: {
@@ -36,13 +38,31 @@ const useStyles = makeStyles(theme => ({
 export  function Cuentas() {
   const classes = useStyles();
   const pcuentas = useRecoilValue(plancuentas);
+  const fcuentas = useRecoilValue(filterCuentas);
+  const tauxi = useRecoilValue(tipoauxi);
+  const [aux, setAux] = useRecoilState(auxi);
  // const cuentas = useRecoilValue(filterCuentas);
   //console.log(cuentas)
- // console.log(pcuentas)
+  const handleChangeTA = (event) => {
+     setAux(event.target.value)      
+  };
+ // console.log(fcuentas)
   return (
     <div className={classes.root}>
         <Title>Plan de Cuentas (Institución Financiera)</Title>
       <Paper className={classes.paper}>
+      <Select
+          labelId="demo-simple-select-label"
+          id="demo-simple-select"
+          value={aux}
+          onChange={handleChangeTA}
+        >
+          {tauxi.map(a=>(
+            <MenuItem value={a}>{a}</MenuItem>
+          ))}
+         
+     
+        </Select>
         <Table className={classes.table} size="small">
           <TableHead>
             <TableRow>
@@ -54,7 +74,7 @@ export  function Cuentas() {
             </TableRow>
           </TableHead>
           <TableBody>
-            {pcuentas.map(row => (
+            {fcuentas.map(row => (
               <TableRow key={row.CUENTA}>
                 <TableCell component="th" scope="row">{row.CUENTA} </TableCell>
                 <TableCell align="left">{row.DESCRIP} </TableCell>
