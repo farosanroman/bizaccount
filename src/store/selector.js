@@ -23,7 +23,7 @@ export const filterCuentas = selector({
 
 //const url = `https://min-api.cryptocompare.com/data/v2/histoday?fsym=USD&tsym=VES&limit=90`;
 export const fetchRecoil = selector({
-  key: 'fetchVES',
+  key: 'fetchRecoil',
   get: async ({ get }) => {
     const urll = get(url);
 

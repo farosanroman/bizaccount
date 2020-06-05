@@ -46,7 +46,7 @@ export  function Cuentas() {
   const userDetails = useRecoilValueLoadable(fetchRecoil);
   useEffect(() => {
    
-   alert(JSON.stringify(userDetails))
+   //alert(JSON.stringify(userDetails))
   },[userDetails]);
   const handleChangeTA = (event) => {
      setAux(event.target.value)     
