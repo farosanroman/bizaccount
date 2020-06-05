@@ -8,8 +8,8 @@ import TableRow from '@material-ui/core/TableRow';
 import Paper from '@material-ui/core/Paper';
 import MenuItem from '@material-ui/core/MenuItem';
 import Select from '@material-ui/core/Select';
-import Title from './title';
-import {CUENTAS} from '../data/cuentas';
+import Title from '../title';
+//import {CUENTAS} from '../../data/cuentas';
 
 import {
   RecoilRoot,
@@ -18,7 +18,7 @@ import {
   useRecoilState,
   useRecoilValue,
 } from 'recoil';
-import { plancuentas,tipoauxi,auxi,filterCuentas } from '../store'
+import { plancuentas,tipoauxi,auxi,filterCuentas } from '../../store'
 //alert(JSON.stringify(CUENTAS))
 const useStyles = makeStyles(theme => ({
   root: {

@@ -35,11 +35,12 @@ import PublicIcon from '@material-ui/icons/Public';
 import ChevronLeftIcon from '@material-ui/icons/ChevronLeft';
 import NotificationsIcon from '@material-ui/icons/Notifications';
 import { mainListItems, secondaryListItems } from './listItems';
-import { Summary } from './summary'
-import { Journal } from './journal'
-import { Ledger } from './ledger'
-import { Cuentas } from './cuentas'
-import { Auxiliares } from './auxiliares'
+import { Summary } from './libros/summary'
+import { Journal } from './libros/journal'
+import { Balance } from './libros/balance'
+import { Ledger } from './libros/ledger'
+import { Cuentas } from './tablas/cuentas'
+import { Auxiliares } from './tablas/auxiliares'
 import Chart from './chart';
 import Geo from './geo';
 //import Deposits from './Deposits';
@@ -221,18 +222,25 @@ export default function Dashboard() {
     </ListItem>
     <ListItem button onClick={handleComponent(2)}>
       <ListItemIcon>
+        <AccountBalanceIcon />
+      </ListItemIcon>
+      <ListItemText primary="Balance" />
+    </ListItem>
+    <ListItem button onClick={handleComponent(3)}>
+      <ListItemIcon>
         <ViewListIcon />
       </ListItemIcon>
       <ListItemText primary="Diarios" />
     </ListItem>
-    <ListItem button onClick={handleComponent(3)}>
+    <Divider />
+    <ListItem button onClick={handleComponent(4)}>
       <ListItemIcon>
         <DescriptionIcon />
       </ListItemIcon>
       <ListItemText primary="Cuentas" />
     </ListItem>
   
-    <ListItem button onClick={handleComponent(4)}>
+    <ListItem button onClick={handleComponent(5)}>
      <ListItemIcon>
         <LayersIcon />
       </ListItemIcon>
@@ -283,24 +291,31 @@ export default function Dashboard() {
           </Grid>
         </Container>
 }
-          {(component==1)&&
+{(component==1)&&
           <Container maxWidth="lg" className={classes.container}>
-<Ledger />
+            <Balance />
+            
           </Container>
           }
- {(component==2)&&
+          {(component==2)&&
           <Container maxWidth="lg" className={classes.container}>
-<Journal />
+           
+            <Ledger />
           </Container>
           }
-           {(component==3)&&
+         {(component==3)&&
           <Container maxWidth="lg" className={classes.container}>
-<Cuentas />
+               <Journal />
           </Container>
           }
-                     {(component==4)&&
+           {(component==4)&&
           <Container maxWidth="lg" className={classes.container}>
-<Auxiliares />
+               <Cuentas />
+          </Container>
+          }
+                     {(component==5)&&
+          <Container maxWidth="lg" className={classes.container}>
+              <Auxiliares />
           </Container>
           }
         <Copyright />

@@ -6,8 +6,8 @@ import TableCell from '@material-ui/core/TableCell';
 import TableHead from '@material-ui/core/TableHead';
 import TableRow from '@material-ui/core/TableRow';
 import Paper from '@material-ui/core/Paper';
-import Title from './title';
-import {AUXILIARES} from '../data/auxiliares';
+import Title from '../title';
+import {AUXILIARES} from '../../data/auxiliares';
 //alert(JSON.stringify(CUENTAS))
 const useStyles = makeStyles(theme => ({
   root: {
