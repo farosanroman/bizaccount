@@ -13,3 +13,8 @@ export const plancuentas = atom({
     key: 'auxi',
     default: ['BD' ]
   });
+
+  export const url = atom({
+    key: 'url',
+    default: ""
+  });

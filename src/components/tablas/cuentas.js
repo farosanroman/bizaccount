@@ -1,4 +1,4 @@
-import React from 'react';
+import React ,{useEffect}from 'react';
 import { makeStyles } from '@material-ui/core/styles';
 import Table from '@material-ui/core/Table';
 import TableBody from '@material-ui/core/TableBody';
@@ -17,8 +17,9 @@ import {
   selector,
   useRecoilState,
   useRecoilValue,
+  useRecoilValueLoadable
 } from 'recoil';
-import { plancuentas,tipoauxi,auxi,filterCuentas } from '../../store'
+import { plancuentas,tipoauxi,auxi,url,filterCuentas,fetchRecoil } from '../../store'
 //alert(JSON.stringify(CUENTAS))
 const useStyles = makeStyles(theme => ({
   root: {
@@ -41,10 +42,15 @@ export  function Cuentas() {
   const fcuentas = useRecoilValue(filterCuentas);
   const tauxi = useRecoilValue(tipoauxi);
   const [aux, setAux] = useRecoilState(auxi);
- // const cuentas = useRecoilValue(filterCuentas);
-  //console.log(cuentas)
+  const [urll, setUrll] = useRecoilState(url);
+  const userDetails = useRecoilValueLoadable(fetchRecoil);
+  useEffect(() => {
+   
+   alert(JSON.stringify(userDetails))
+  },[userDetails]);
   const handleChangeTA = (event) => {
-     setAux(event.target.value)      
+     setAux(event.target.value)     
+     setUrll('https://min-api.cryptocompare.com/data/v2/histoday?fsym=USD&tsym=VES&limit=90') 
   };
  // console.log(fcuentas)
   return (

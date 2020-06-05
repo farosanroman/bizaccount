@@ -1,5 +1,5 @@
 import { selector } from 'recoil';
-import { plancuentas,auxi } from '.';
+import { plancuentas,auxi,url } from '.';
 
 export const filterCuentas = selector({
     key: "filterCuentas",
@@ -20,3 +20,21 @@ export const filterCuentas = selector({
 
     }
 })
+
+//const url = `https://min-api.cryptocompare.com/data/v2/histoday?fsym=USD&tsym=VES&limit=90`;
+export const fetchRecoil = selector({
+  key: 'fetchVES',
+  get: async ({ get }) => {
+    const urll = get(url);
+
+    try{
+          const response = await fetch(urll);
+          const data = await response.json();
+        // alert(JSON.stringify(data))
+          return data;
+      }catch(error){
+          throw error;
+      }
+  }
+});
+

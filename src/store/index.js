@@ -1,2 +1,2 @@
-export { plancuentas,tipoauxi,auxi } from './atom';
-export { filterCuentas } from './selector';
+export { plancuentas,tipoauxi,auxi,url } from './atom';
+export { filterCuentas,fetchRecoil } from './selector';
