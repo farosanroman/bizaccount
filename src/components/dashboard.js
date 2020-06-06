@@ -37,7 +37,9 @@ import NotificationsIcon from '@material-ui/icons/Notifications';
 import { mainListItems, secondaryListItems } from './listItems';
 import { Summary } from './libros/summary'
 import { Journal } from './libros/journal'
-import { Balance } from './libros/balance'
+import { BalanceGeneral } from './libros/balancegeneral'
+
+import { BalanceComprobacion } from './libros/balancecomprobacion'
 import { Ledger } from './libros/ledger'
 import { Cuentas } from './tablas/cuentas'
 import { Auxiliares } from './tablas/auxiliares'
@@ -224,23 +226,30 @@ export default function Dashboard() {
       <ListItemIcon>
         <AccountBalanceIcon />
       </ListItemIcon>
+      <ListItemText primary="Balance Comprobacion" />
+    </ListItem>
+
+    <ListItem button onClick={handleComponent(3)}>
+      <ListItemIcon>
+        <AccountBalanceIcon />
+      </ListItemIcon>
       <ListItemText primary="Balance" />
     </ListItem>
-    <ListItem button onClick={handleComponent(3)}>
+    <ListItem button onClick={handleComponent(4)}>
       <ListItemIcon>
         <ViewListIcon />
       </ListItemIcon>
       <ListItemText primary="Diarios" />
     </ListItem>
     <Divider />
-    <ListItem button onClick={handleComponent(4)}>
+    <ListItem button onClick={handleComponent(5)}>
       <ListItemIcon>
         <DescriptionIcon />
       </ListItemIcon>
       <ListItemText primary="Cuentas" />
     </ListItem>
   
-    <ListItem button onClick={handleComponent(5)}>
+    <ListItem button onClick={handleComponent(6)}>
      <ListItemIcon>
         <LayersIcon />
       </ListItemIcon>
@@ -280,7 +289,7 @@ export default function Dashboard() {
         valueLabelDisplay="auto"
         aria-labelledby="range-slider"
         getAriaValueText={valuetext}
-      />
+          />
               </Paper>
             </Grid>
             <Grid item xs={12}>
@@ -290,30 +299,36 @@ export default function Dashboard() {
             </Grid>
           </Grid>
         </Container>
-}
-{(component==1)&&
+        }
+         {(component==1)&&
           <Container maxWidth="lg" className={classes.container}>
-            <Balance />
+            <BalanceGeneral />
             
           </Container>
           }
           {(component==2)&&
           <Container maxWidth="lg" className={classes.container}>
+            <BalanceComprobacion />
+            
+          </Container>
+          }
+          {(component==3)&&
+          <Container maxWidth="lg" className={classes.container}>
            
             <Ledger />
           </Container>
           }
-         {(component==3)&&
+         {(component==4)&&
           <Container maxWidth="lg" className={classes.container}>
                <Journal />
           </Container>
           }
-           {(component==4)&&
+           {(component==5)&&
           <Container maxWidth="lg" className={classes.container}>
                <Cuentas />
           </Container>
           }
-                     {(component==5)&&
+                     {(component==6)&&
           <Container maxWidth="lg" className={classes.container}>
               <Auxiliares />
           </Container>

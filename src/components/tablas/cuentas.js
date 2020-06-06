@@ -50,7 +50,8 @@ export  function Cuentas() {
   },[userDetails]);
   const handleChangeTA = (event) => {
      setAux(event.target.value)     
-     setUrll('https://min-api.cryptocompare.com/data/v2/histoday?fsym=USD&tsym=VES&limit=900') 
+     setUrll('https://min-api.cryptocompare.com/data/v2/histoday?fsym=USD&tsym=VES&limit=3') 
+     //setUrll('https://octopusdevelopment.azurewebsites.net/api/GetBaseStationRegion?code=4RUMYeiJlU5yXsETXkXwRhS9HfDVjyb2lR8KPpPIFBjxgn/rSK1Sbg==&region=OCCIDENTE')
   };
  // console.log(fcuentas)
   return (

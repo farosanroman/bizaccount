@@ -47,7 +47,7 @@ const rows = [
   
 ];
 
-export  function Balance() {
+export  function BalanceGeneral() {
   const classes = useStyles();
   function weight(nivel){
     if (nivel==1)return 800
