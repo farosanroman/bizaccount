@@ -45,12 +45,12 @@ export  function Cuentas() {
   const [urll, setUrll] = useRecoilState(url);
   const userDetails = useRecoilValueLoadable(fetchRecoil);
   useEffect(() => {
-   
+    console.log(JSON.stringify(userDetails))
    //alert(JSON.stringify(userDetails))
   },[userDetails]);
   const handleChangeTA = (event) => {
      setAux(event.target.value)     
-     setUrll('https://min-api.cryptocompare.com/data/v2/histoday?fsym=USD&tsym=VES&limit=90') 
+     setUrll('https://min-api.cryptocompare.com/data/v2/histoday?fsym=USD&tsym=VES&limit=900') 
   };
  // console.log(fcuentas)
   return (
