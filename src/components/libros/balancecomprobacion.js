@@ -16,6 +16,7 @@ import MuiDialogTitle from '@material-ui/core/DialogTitle';
 import MuiDialogContent from '@material-ui/core/DialogContent';
 import MuiDialogActions from '@material-ui/core/DialogActions';
 import CloseIcon from '@material-ui/icons/Close';
+import ListIcon from '@material-ui/icons/List';
 import Typography from '@material-ui/core/Typography';
 
 import Paper from '@material-ui/core/Paper';
@@ -108,6 +109,10 @@ function Row(props) {
   const { row } = props;
   const [open, setOpen] = React.useState(false);
   const classes = useRowStyles();
+  const handleClickOpen = () => {
+    alert(1)
+    props.set(true);
+  };
 const auxiliares=[{
   "CIA": "INAZZ20",
   "CUENTA": 15005014001,
@@ -211,6 +216,12 @@ const auxiliares=[{
                 <TableBody>
                   {auxiliares.map((auxiRow,i) => (
                     <TableRow key={auxiRow.CUENTA+i}>
+                       <TableCell>
+                       <IconButton aria-label="expand row" size="small" onClick={()=>props.DIALOGOMAYANA(true)}>
+                       <ListIcon />
+                          </IconButton>
+                       
+                       </TableCell>
                       <TableCell align="left">{<div style={{  color: '#2E2E2E',fontSize:14,fontWeight:weight(auxiRow.NIVEL)}}>{auxiRow.DESCRIPCION}</div>} </TableCell>
                       <TableCell align="right">{<div style={{  color: '#2E2E2E',fontSize:14,fontWeight:weight(auxiRow.NIVEL)}}>{auxiRow.SALDO_MONT_ANTER.toLocaleString( 'de-DE')}</div>}</TableCell>
                       <TableCell align="right">{<div style={{  color: '#2E2E2E',fontSize:14,fontWeight:weight(auxiRow.NIVEL)}}>{auxiRow.DEBITO_MONT_PERI.toLocaleString( 'de-DE')}</div>}</TableCell>
@@ -253,7 +264,8 @@ export  function BalanceComprobacion() {
   const classes = useStyles();
   const [open, setOpen] = React.useState(false);
 
-  const handleClickOpen = () => {
+  const handleClickOpenM = () => {
+ 
     setOpen(true);
   };
   const handleClose = () => {
@@ -271,13 +283,13 @@ export  function BalanceComprobacion() {
   return (
     <div className={classes.root}>
   
-  <Button variant="outlined" color="primary" onClick={handleClickOpen}>
+  <Button variant="outlined" color="primary" onClick={handleClickOpenM}>
         Open dialog
   </Button>
   <Dialog onClose={handleClose}  fullWidth={'true'}  maxWidth={'md'} aria-labelledby="customized-dialog-title" open={open}>
        
         <DialogContent dividers>
-         <Mayana />
+         <Mayana  />
         </DialogContent>
         <DialogActions>
           <Button autoFocus onClick={handleClose} color="primary">
@@ -295,7 +307,7 @@ export  function BalanceComprobacion() {
         
         <TableBody>
           {BALGEN.map((row,index) => (
-            (row.NIVEL>2)&&<Row key={index} row={row} />
+            (row.NIVEL>2)&&<Row key={index} row={row} DIALOGOMAYANA={handleClickOpenM}/>
           ))}
         </TableBody>
       </Table>
