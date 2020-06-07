@@ -115,7 +115,7 @@ export default function Login(prop) {
   function Copyright() {
     return (
       <Typography variant="body2" color="textSecondary" align="center">
-      {'Copyright © CryptoCalcuta '}
+      {'Copyright © BizAccount '}
       {new Date().getFullYear()}
       {'.'}
     </Typography>
@@ -230,7 +230,7 @@ useEffect(() => {
             BizAccount
             </Typography>
             <Typography variant="h5" align="center" color="textSecondary" paragraph>
-                25 anos, 8 paises y mas de 1.000 empresas disponen de su informacion financiera en la nube. Estamos en constante evolucion a las nuevas tecnologias open source en JavaScript con ReactJS, Materials y NodeJS.
+                25 años, 8 paises y mas de 1.000 empresas disponen de su informacion financiera en la nube. Estamos en constante evolucion a las nuevas tecnologias open source en JavaScript con ReactJS, Materials y NodeJS.
                </Typography>
             <div className={classes.heroButtons}>
               <Grid container spacing={2} justify="center">
