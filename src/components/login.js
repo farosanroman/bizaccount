@@ -230,8 +230,7 @@ useEffect(() => {
             BizAccount
             </Typography>
             <Typography variant="h5" align="center" color="textSecondary" paragraph>
-                La informacion contable y financiero en la nube disponible en cualquier parte del planeta y a un click del usuario
-            
+                25 anos, 8 paises y mas de 1.000 empresas disponen de su informacion financiera en la nube. Estamos en constante evolucion a las nuevas tecnologias open source en JavaScript con ReactJS, Materials y NodeJS.
                </Typography>
             <div className={classes.heroButtons}>
               <Grid container spacing={2} justify="center">
@@ -260,7 +259,7 @@ useEffect(() => {
                     Sistema Administrativo
                     </Typography>
                     <Typography>
-                   Procesos administrativos que giran alrededor de la contabilidad. Cada actividad de inmediato genera los comprobantes contables para disponer de informes financieros y fiscales al instante.
+                   Procesos administrativos que giran alrededor de la contabilidad generando los comprobantes contables para disponer de informes financieros y fiscales al instante.
                     </Typography>
                   </CardContent>
                 </Card>

@@ -13,6 +13,7 @@ import MenuItem from '@material-ui/core/MenuItem';
 import Select from '@material-ui/core/Select';
 import Title from './title';
 import Totales from './totales'
+import Gantt from './gantt'
 //import {CUENTAS} from '../../data/cuentas';
 
 //alert(JSON.stringify(CUENTAS))
@@ -52,6 +53,9 @@ const useStyles = makeStyles(theme => ({
   fixedHeight: {
     height: 240,
   },
+  fixedHeight2: {
+    height: 340,
+  },
 }));
 
 const drawerWidth = 240;
@@ -62,10 +66,12 @@ export  function Nirvana() {
   
  // console.log(fcuentas)
  const fixedHeightPaper = clsx(classes.paper, classes.fixedHeight);
+ const fixedHeightPaper2 = clsx(classes.paper, classes.fixedHeight2);
   return (
     
     <div className={classes.root}>
       <Container maxWidth="lg" className={classes.container}>
+      
       <Title>Avance del Proyecto</Title>
           <Grid container spacing={3}>
             {/* Chart */}
@@ -97,9 +103,9 @@ export  function Nirvana() {
 
 
 
-            <Grid item xs={12} md={8} lg={9}>
-              <Paper className={fixedHeightPaper}>
-                {/* <Chart /> */}
+            <Grid item xs={12} md={12} lg={12}>
+              <Paper className={fixedHeightPaper2}>
+              <Gantt />
               </Paper>
             </Grid>
             {/* Recent Deposits */}
