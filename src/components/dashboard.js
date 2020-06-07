@@ -23,6 +23,7 @@ import DashboardIcon from '@material-ui/icons/Dashboard';
 import ShoppingCartIcon from '@material-ui/icons/ShoppingCart';
 import PeopleIcon from '@material-ui/icons/People';
 import BarChartIcon from '@material-ui/icons/BarChart';
+import BusinessIcon from '@material-ui/icons/Business';
 import DescriptionIcon from '@material-ui/icons/Description';
 import LayersIcon from '@material-ui/icons/Layers';
 import AssignmentIcon from '@material-ui/icons/Assignment';
@@ -43,6 +44,9 @@ import { BalanceComprobacion } from './libros/balancecomprobacion'
 import { Ledger } from './libros/ledger'
 import { Cuentas } from './tablas/cuentas'
 import { Auxiliares } from './tablas/auxiliares'
+
+import {Nirvana } from './proyectos/nirvana'
+//import { Nirvana } from './proyectos/nirvana'
 import Chart from './chart';
 import Geo from './geo';
 //import Deposits from './Deposits';
@@ -235,13 +239,20 @@ export default function Dashboard() {
       </ListItemIcon>
       <ListItemText primary="Balance" />
     </ListItem>
+    <ListItem button onClick={handleComponent(100)}>
+     <ListItemIcon>
+        <BusinessIcon />
+      </ListItemIcon>
+      <ListItemText primary="Proyecto" />
+    </ListItem>
+    <Divider />
     <ListItem button onClick={handleComponent(4)}>
       <ListItemIcon>
         <ViewListIcon />
       </ListItemIcon>
       <ListItemText primary="Diarios" />
     </ListItem>
-    <Divider />
+   
     <ListItem button onClick={handleComponent(5)}>
       <ListItemIcon>
         <DescriptionIcon />
@@ -255,6 +266,7 @@ export default function Dashboard() {
       </ListItemIcon>
       <ListItemText primary="Auxiliares" />
     </ListItem>
+
     
         </List>
         <Divider />
@@ -331,6 +343,12 @@ export default function Dashboard() {
                      {(component==6)&&
           <Container maxWidth="lg" className={classes.container}>
               <Auxiliares />
+          </Container>
+          }
+
+        {(component==100)&&
+          <Container maxWidth="lg" className={classes.container}>
+              <Nirvana />
           </Container>
           }
         <Copyright />
